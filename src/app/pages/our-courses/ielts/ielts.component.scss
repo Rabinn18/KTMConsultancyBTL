@@ -1,0 +1,121 @@
+/* Generic styles */
+.wrapper{
+  margin-top: 130px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  background-color: #E41C48;
+  text-decoration: none;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+}
+
+a:hover {
+  background: #f1a40a;
+  opacity: .6;
+}
+
+/* Styles for the hero image */
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url('../../../../assets/img/hero-img/ielts-hero-image.jpg') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  opacity: 0.7;
+}
+
+.hero > * {
+  color: white;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero > article > p {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.hero > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+}
+
+.about-ielts-text {
+  p{
+    font-size: 1rem;
+    font-stretch: expanded;
+  }
+}
+.about-ielts-img img{
+  height: 10.5cm;
+  width: -webkit-fill-available;;
+}
+.ielts-pte-discount-img img{
+  height: 17cm;
+  width: -webkit-fill-available;
+}
+.other-classes-button {
+  padding-top: 3rem;
+  a{
+    height: 0.8cm;
+    width: 4cm;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    // position: fixed;
+    margin-left: 83%;
+  }
+  .pte-class{
+    // bottom: 3%;
+    margin-top: 15px;
+  }
+  .toefl-class{
+    // bottom: 10%;
+    margin-top: 15px;
+  }
+}
+
+
+
+
+// .other-classes-button {
+//   // padding-top: 3rem;
+//   a{
+//     height: 0.8cm;
+//     width: 4cm;
+//     // float: right;
+//     text-align: center;
+//     font-size: 20px;
+//     // position: fixed;
+//     // margin-left: 83%;
+//     // position: sticky;
+//     // top: 30%;
+//     // bottom: 20px;
+//     // right: 79%
+
+//   }
+//   .pte-class{
+//     left: 70%;
+//     position: sticky;
+//     top: 200px;
+//   }
+//   .toefl-class{
+//     left: 80%;
+//     position: sticky;
+//     top: 20px;
+//   }
+// }

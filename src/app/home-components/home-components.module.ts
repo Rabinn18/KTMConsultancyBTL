@@ -13,6 +13,7 @@ import { ContactUsSectionComponent } from './contact-us-section/contact-us-secti
 import { TestimonialsSectionComponent } from './testimonials-section/testimonials-section.component';
 import { OurServicesSectionComponent } from './our-services-section/our-services-section.component';
 import { CountsSectionComponent } from './counts-section/counts-section.component';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 const COMPONENTS = [
@@ -33,6 +34,7 @@ const MODULES = [
   CommonModule,
   RouterModule,
   AppRoutingModule,
+  NgbCarouselModule
 ]
 
 @NgModule({

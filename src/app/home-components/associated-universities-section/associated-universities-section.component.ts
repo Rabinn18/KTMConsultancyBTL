@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./associated-universities-section.component.scss']
 })
 export class AssociatedUniversitiesSectionComponent {
-
 }

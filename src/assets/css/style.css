@@ -28,8 +28,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Raleway", sans-serif;
+h6{
+  font-family: 'Manrope', sans-serif !important;
+  color: #1C579A;
+}
+p{
+  font-family: 'Manrope', sans-serif !important;
+}
+a{
+  font-family: 'Manrope', sans-serif !important;
 }
 
 /*--------------------------------------------------------------

@@ -33,6 +33,8 @@
               "src/assets/vendor/glightbox/css/glightbox.min.css",
               "src/assets/vendor/remixicon/remixicon.css",
               "src/assets/vendor/swiper/swiper-bundle.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bs-stepper/dist/css/bs-stepper.min.css",
               "src/styles.scss"
             ],
             "scripts": [

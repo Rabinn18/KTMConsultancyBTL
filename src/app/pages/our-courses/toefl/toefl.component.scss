@@ -1,0 +1,98 @@
+/* Generic styles */
+.wrapper{
+  margin-top: 130px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  background-color: #E41C48;
+  text-decoration: none;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+}
+
+a:hover {
+  background: #f1a40a;
+  opacity: .6;
+}
+
+/* Styles for the hero image */
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url('../../../../assets/img/hero-img/toefl-hero-image.jpg') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  opacity: 0.7;
+}
+
+.hero > * {
+  color: white;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero > article > p {
+  font-size: 1.35rem;
+  font-weight: 200;
+}
+
+.hero > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+}
+
+.about-toefl-text {
+  p{
+    font-size: 1rem;
+    font-stretch: expanded;
+  }
+}
+.about-toefl-img img{
+  height: 11cm;
+  width: -webkit-fill-available;
+}
+.ielts-pte-discount img{
+  height: 17cm;
+  width: -webkit-fill-available;
+}
+.consult-card img{
+  height: 10cm;
+  width: -webkit-fill-available;
+}
+.card{
+  margin: 5px;
+  border-block-width: 2px;
+  h2,p{
+    text-align: start;
+    margin-left: 30%;
+  }
+  h2:hover{
+    color: #f1a40a;
+  }
+  p:hover{
+    font-weight: 500;
+  }
+}
+.card1{
+  border-block-end-color: #E41C48;
+}
+.card1:hover{
+  border-block-end-color: #f1a40a;
+  border-block-width: 3px;
+}
+.ibt-text, .pbt-text p{
+  // text-align:center
+}
