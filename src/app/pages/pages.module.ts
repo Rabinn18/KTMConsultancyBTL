@@ -42,10 +42,11 @@ const MODULES = [
   RouterModule,
   AppRoutingModule,
   HomeComponentsModule,
+
 ]
 
 @NgModule({
-  declarations: [...COMPONENTS, ],
+  declarations: [...COMPONENTS,],
   imports: [...MODULES]
 })
 

@@ -76,11 +76,14 @@
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #E41C48;
+  border: 2px solid var(--danger-color);
+  background: var(--danger-color);
+
 }
 
 #hero .btn-get-started:hover {
-  background: #E41C48;
+  background: var(--warning-color);
+  border: var(--warning-color);
   color: #fff;
   text-decoration: none;
 }
