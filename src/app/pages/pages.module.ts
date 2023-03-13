@@ -18,6 +18,7 @@ import { AustraliaComponent } from './abroad-countries/australia/australia.compo
 import { UsaComponent } from './abroad-countries/usa/usa.component';
 import { UkComponent } from './abroad-countries/uk/uk.component';
 import { CanadaComponent } from './abroad-countries/canada/canada.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 const COMPONENTS = [
@@ -46,7 +47,7 @@ const MODULES = [
 ]
 
 @NgModule({
-  declarations: [...COMPONENTS,],
+  declarations: [...COMPONENTS, ContactUsComponent,],
   imports: [...MODULES]
 })
 

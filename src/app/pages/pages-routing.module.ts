@@ -11,6 +11,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { IeltsComponent } from './our-courses/ielts/ielts.component';
 import { PteComponent } from './our-courses/pte/pte.component';
 import { ToeflComponent } from './our-courses/toefl/toefl.component';
+import { ContactUsSectionComponent } from '../home-components/contact-us-section/contact-us-section.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
   {
@@ -64,6 +66,10 @@ const routes: Routes = [
       {
         path: 'uk',
         component: UkComponent,
+      },
+      {
+        path: 'contact',
+        component: ContactUsComponent
       }
     ],
   },

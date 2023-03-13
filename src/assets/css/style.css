@@ -211,6 +211,8 @@ a {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
+  background-color: var(--light-color);
+  border-radius: 7px;
 }
 
 #header .logo a {

@@ -43,9 +43,10 @@
   padding: 6px 24px 8px 24px;
   display: inline-block;
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 7px;
 }
 
 #topbar .cta a:hover {
   background: #f1a40a;
+  color: var(--dark-color);
 }
