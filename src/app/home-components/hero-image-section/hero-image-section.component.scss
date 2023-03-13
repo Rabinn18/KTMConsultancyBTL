@@ -46,6 +46,8 @@
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-size: 15px;
+  line-height: 28px;
 }
 
 #hero .carousel-control-prev,
@@ -69,19 +71,22 @@
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
+  border-radius: 7px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #E41C48;
+  border: 2px solid var(--danger-color);
+  background: var(--danger-color);
+
 }
 
 #hero .btn-get-started:hover {
-  background: #E41C48;
-  color: #fff;
+  background: var(--warning-color);
+  border: var(--warning-color);
+  color: var(--dark-color);
   text-decoration: none;
 }
 

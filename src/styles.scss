@@ -1,12 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("./assets/css/style.css");
+@import url("./assets/scss/_colors.scss");
 
-.swiper-slide{
+/* Importing Bootstrap SCSS file. */
+// @import 'bootstrap/scss/bootstrap';
+// @import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+// @import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@font-face {
+  font-family: "Poppins-Extra-Light";
+  src: url("./assets/fonts/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+
+body {
+  font-family: "Poppins-Extra-Light" !important;
+}
+
+.swiper-slide {
   width: 22%;
 }
-.swiper-slide img{
+
+.swiper-slide img {
   height: 50px !important;
 }
 
-/* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+.text-justify {
+  text-align: justify
+}
+
+.owl-carousel .owl-item img {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 70% !important;
+}

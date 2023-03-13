@@ -1,143 +1,74 @@
 <header id="header" class="fixed-top d-flex align-items-center">
   <div class="container d-flex align-items-center justify-content-between">
-    <!-- <h1 class="logo"><a href="index.html">Anyar</a></h1> -->
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <a href="index.html" class="logo"
-      ><img
-        src="../../../assets/img/logoKTMConsBTL-removebg-preview.png"
-        alt=""
-        class="img-fluid"
-    /></a>
+    <a routerLink="/" class="logo"><img src="../../../assets/img/ktm-consulting-group-logo-image.png" alt=""
+        class="img-fluid" /></a>
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-        <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
-        <li><a class="nav-link scrollto" href="#services">Services</a></li>
-        <li class="dropdown">
-          <!-- <a href="#preparationClasses">Preparation Classes</a> -->
-          <a href="#">About <i class="bi bi-chevron-down"></i></a>
+        <li class="nav-item" routerLinkActive="myActiveClass active" [routerLinkActiveOptions]="{exact: true}"><a
+            class="nav-link" routerLink="/">Home</a></li>
+        <!-- <li class="nav-item" routerLinkActive="myActiveClass active" [routerLinkActiveOptions]="{exact: true}"><a
+            class="nav-link" routerLink="/">Services</a></li> -->
+        <li class="dropdown nav-item">
+          <a>About <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/about-ktm-consulting-group">
-                <!-- <i class="fa fa-bed" aria-hidden="true"></i> -->
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/about-ktm-consulting-group" routerLinkActive="myActiveClass active">
                 About KTM Consulting Group
               </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/about-application-process">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/about-application-process" routerLinkActive="myActiveClass active">
                 About Application Process
               </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/about-our-team"> Our Team </a>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/about-our-team" routerLinkActive="myActiveClass active"> Our Team </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/about-our-branches"> Our Branches</a>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/about-our-branches" routerLinkActive="myActiveClass active"> Our
+                Branches</a>
             </li>
           </ul>
         </li>
-        <li class="dropdown">
-          <!-- <a href="#preparationClasses">Preparation Classes</a> -->
-          <a href="#preparationClasses"
-            ><span>Preparation Classes</span> <i class="bi bi-chevron-down"></i
-          ></a>
+        <li class="dropdown nav-item">
+          <a><span>Preparation Classes</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/ielts">
-                <!-- <i class="fa fa-bed" aria-hidden="true"></i> -->
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/ielts" routerLinkActive="myActiveClass active">
                 IELTS
               </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/pte"> PTE </a>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/pte" routerLinkActive="myActiveClass active"> PTE </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/toefl"> TOEFL </a>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/toefl" routerLinkActive="myActiveClass active"> TOEFL </a>
             </li>
           </ul>
         </li>
-        <li class="dropdown">
-          <!-- <a href="#preparationClasses">Preparation Classes</a> -->
-          <a href="#"
-            ><span>Study Abroad</span> <i class="bi bi-chevron-down"></i
-          ></a>
+        <li class="dropdown nav-item">
+          <a><span>Study Abroad</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/australia">
-                <!-- <i class="fa fa-bed" aria-hidden="true"></i> -->
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/australia" routerLinkActive="myActiveClass active">
                 Study in Australia
               </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/canada"> Study in Canada </a>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/canada" routerLinkActive="myActiveClass active"> Study in Canada </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/usa"> Study in USA </a>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/usa" routerLinkActive="myActiveClass active"> Study in USA </a>
             </li>
-            <li
-              routerLinkActive="myActiveClass"
-              [routerLinkActiveOptions]="{ exact: true }"
-            >
-              <a routerLink="/uk"> Study in UK </a>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/uk" routerLinkActive="myActiveClass active"> Study in UK </a>
             </li>
           </ul>
         </li>
-        <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-        <!-- <li><a href="blog.html">Blog</a></li> -->
-        <li class="dropdown">
-          <a href="#"
-            ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
-          ></a>
-          <ul>
-            <li><a href="#">Drop Down 1</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i
-              ></a>
-              <ul>
-                <li><a href="#">Deep Drop Down 1</a></li>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                <li><a href="#">Deep Drop Down 3</a></li>
-                <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Drop Down 2</a></li>
-            <li><a href="#">Drop Down 3</a></li>
-            <li><a href="#">Drop Down 4</a></li>
-          </ul>
-        </li>
+
+        <li class="nav-item" routerLinkActive="myActiveClass active" [routerLinkActiveOptions]="{exact: true}"><a
+            class="nav-link" routerLink="contact">Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>

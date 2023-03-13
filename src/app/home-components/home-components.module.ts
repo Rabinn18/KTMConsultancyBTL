@@ -14,6 +14,7 @@ import { TestimonialsSectionComponent } from './testimonials-section/testimonial
 import { OurServicesSectionComponent } from './our-services-section/our-services-section.component';
 import { CountsSectionComponent } from './counts-section/counts-section.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 const COMPONENTS = [
@@ -34,11 +35,12 @@ const MODULES = [
   CommonModule,
   RouterModule,
   AppRoutingModule,
-  NgbCarouselModule
+  NgbCarouselModule,
+  CarouselModule
 ]
 
 @NgModule({
-  declarations: [...COMPONENTS,     ],
+  declarations: [...COMPONENTS,],
   imports: [...MODULES],
   exports: [...COMPONENTS]
 })
